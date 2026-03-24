@@ -11,6 +11,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 </head>
+
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
 <body>
   <main class="container">
 
@@ -34,7 +39,7 @@
         <h1>Hello! I’m <span class="accent">Kim</span></h1>
         <p class="small">I believe creativity has no limits. As a Graphic Artist and UI/UX Designer, I turn ideas into bold visuals and user-focused designs that make a lasting impact.</p>
       <div class="hero-actions flex gap-4">
-            <a href="picture/Kim Sinaguinan.pdf" download class="btn btn-oblique"><span>Hire Me</span></a>
+            <a href="picture/UPDATED CV-KIMBERLY SINAGUINAN.pdf" download class="btn btn-oblique"><span>Hire Me</span></a>
       </div>
          
       </div>
@@ -43,31 +48,57 @@
  
         <p class="name accent"><strong>Kimberly C. Sinaguinan</strong></p>
         
-       <p class="justify">
-            I am a <strong>Graphic Artist and UI/UX Designer</strong>, graduated with a 
+        <p class="justify">
+            I am a <strong>Graphic Artist and UI/UX Designer</strong> with a 
             <strong>Bachelor of Science in Information Technology</strong> from 
             <strong>Bulacan Agricultural State College</strong>, recognized with 
             <em>Academic Distinction</em> and the <em>Presidential Service Award</em>. 
-            My passion lies in transforming ideas into impactful visuals and intuitive digital experiences.
-        </p>
-
-
-        <p class="justify">
-            My professional journey includes serving as <strong>Project Manager and UI/UX Designer</strong> 
-            for the University of Kratie Website Development in Cambodia, as well as leading projects such as 
-            TimbangApp and SIBOL Website Development at the Institute of Computer Studies. 
-            I also worked as a <strong>UI/UX Designer</strong> for La Lima Muebles, a startup company based 
-            in San Francisco, where I created user interfaces and wireframes for a furniture-focused project. 
-            Additionally, I gained experience as a <strong>Freelance Graphic Designer</strong> for the MN+LA brand, 
-            where I designed branding, marketing, and promotional materials that aligned with the client’s identity.
+            I am passionate about transforming ideas into impactful visuals and intuitive digital experiences.
         </p>
 
         <p class="justify">
-            These experiences have strengthened my ability to balance creativity with functionality, 
-            lead teams effectively, and deliver designs that are both visually compelling and 
-            strategically effective.
-        </p>  
-        
+            I have served as a <strong>Project Manager and UI/UX Designer</strong> for the University of Kratie Website Development in Cambodia and led projects such as TimbangApp and SIBOL Website. I also worked as a <strong>UI/UX Designer</strong> for La Lima Muebles and as a <strong>Freelance Graphic Designer</strong> for the MN+LA brand, creating branding and marketing materials.
+        </p>
+
+        <p class="justify">
+            Additionally, I worked as a <strong>Graphic Artist</strong> for an event organizing team affiliated with government and military sectors, handling marketing materials, social media content, video production, photography, and website management.
+        </p>
+
+        <p class="justify">
+            These experiences strengthened my ability to combine creativity and functionality while delivering visually compelling and effective designs.
+        </p>
+
+       <!-- <p class="justify">
+          I am a <strong>Graphic Artist and UI/UX Designer</strong>, graduated with a 
+          <strong>Bachelor of Science in Information Technology</strong> from 
+          <strong>Bulacan Agricultural State College</strong>, recognized with 
+          <em>Academic Distinction</em> and the <em>Presidential Service Award</em>. 
+          My passion lies in transforming ideas into impactful visuals and intuitive digital experiences.
+      </p> -->
+
+      <!-- <p class="justify">
+          My professional journey includes serving as <strong>Project Manager and UI/UX Designer</strong> 
+          for the University of Kratie Website Development in Cambodia, as well as leading projects such as 
+          TimbangApp and SIBOL Website Development at the Institute of Computer Studies. 
+          I also worked as a <strong>UI/UX Designer</strong> for La Lima Muebles, a startup company based 
+          in San Francisco, where I created user interfaces and wireframes for a furniture-focused project. 
+          Additionally, I gained experience as a <strong>Freelance Graphic Designer</strong> for the MN+LA brand, 
+          where I designed branding, marketing, and promotional materials that aligned with the client’s identity.
+      </p>
+
+      <p class="justify">
+          Furthermore, I worked as a <strong>Graphic Artist</strong> for an event organizing team affiliated 
+          with government and military sectors, where I handled end-to-end marketing creatives. I was responsible 
+          for designing marketing materials, managing social media content, producing videos, handling photography 
+          and videography, and maintaining the organization’s website.
+      </p>
+
+      <p class="justify">
+          These experiences have strengthened my ability to balance creativity with functionality, 
+          lead teams effectively, and deliver designs that are both visually compelling and 
+          strategically effective.
+      </p> -->
+
         <p class="contact-icons">
         <a href="mailto:kimsinaguinan08@gmail.com" target="_blank" class="icon-link">
             <img src="picture/4.webp" alt="Email">
@@ -114,6 +145,15 @@
         Designed branding, marketing, and promotional materials across digital 
         and print. Collaborated closely with the client to refine concepts and 
         maintain design consistency.
+      </p>
+    </div>
+
+     <div class="card reveal-left">
+      <span class="pill">October 2025 – Present</span>
+      <h4>Defense Expo PHL</h4>
+      <p>Graphic Designer</p>
+      <p class="small muted">
+        Designed and produced marketing, branding, and promotional materials for events across digital and print platforms. Collaborated with teams to develop creative concepts, ensured brand consistency, and supported social media content, video production, and event coverage.
       </p>
     </div>
 
@@ -243,6 +283,7 @@
         <li class="filter-btn" data-filter="design">Promotional </li>
         <li class="filter-btn" data-filter="graphics">Graphics</li>
         <li class="filter-btn" data-filter="mockups">Mockups</li>
+        <li class="filter-btn" data-filter="logo">Logo</li>
 
       </ul>
       <div class="divider"></div>
@@ -251,6 +292,13 @@
     <!-- Work Grid -->
     <div class="grid-3 work-grid">
       <!-- Web Dev -->
+      <div class="work-card" data-category="webdev">
+      <a href="https://defenseexpophl.com/drone-warfare-summit-2025/" target="_blank">
+        <img src="picture/depweb.webp" alt="UKT Website">
+        <h4>Defense Expo PHL</h4>
+      </a>
+    </div>
+
       <div class="work-card" data-category="webdev">
       <a href="https://www.sinhssci-games.com/ukt2.0/home" target="_blank">
         <img src="picture/ukt.webp" alt="UKT Website">
@@ -287,10 +335,77 @@
     </div>
 
 
-      <!-- Design / Graphics -->
+      <!-- promotional -->
+        <div class="work-card" data-category="design">
+            <img src="picture/invi1.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/invi2.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/invi3.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/invi4.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/invi5.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/invi6.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+
+          <div class="work-card" data-category="design">
+        <img src="picture/P11.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+         <div class="work-card" data-category="design">
+        <img src="picture/e10.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="design">
+        <img src="picture/j1.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+        <img src="picture/j2.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+        <img src="picture/j3.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+        <img src="picture/j4.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+        
+
+          <!-- <div class="work-card" data-category="design">
+          <img src="picture/p13.webp" alt="Promotional Creatives" class="full-img">
+          </div> -->
+
+
+       <div class="work-card" data-category="design">
+            <img src="picture/info1.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/info2.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/info3.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/info4.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/info5.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/info6.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+         <div class="work-card" data-category="design">
+            <img src="picture/info7.webp" alt="TimbangApp Branding" class="full-img">
+        </div>
+
         <div class="work-card" data-category="design">
             <img src="picture/cd.1.webp" alt="TimbangApp Branding" class="full-img">
-            
         </div>
 
         <div class="work-card" data-category="design">
@@ -343,19 +458,37 @@
         <img src="picture/P10.webp" alt="Promotional Creatives" class="full-img">
         </div>
 
-         <div class="work-card" data-category="design">
-        <img src="picture/P11.webp" alt="Promotional Creatives" class="full-img">
-        </div>
-
-         <div class="work-card" data-category="design">
-        <img src="picture/e10.webp" alt="Promotional Creatives" class="full-img">
-        </div>
-
-         <div class="work-card" data-category="design">
-        <img src="picture/p13.webp" alt="Promotional Creatives" class="full-img">
-        </div>
+       
 
             <!-- mockups -->
+        <div class="work-card" data-category="mockups">
+            <img src="picture/mo1.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="mockups">
+            <img src="picture/j5.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="mockups">
+            <img src="picture/idl1.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="mockups">
+            <img src="picture/idl2.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="mockups">
+            <img src="picture/merch1.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="mockups">
+            <img src="picture/merch2.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="mockups">
+            <img src="picture/merch3.webp" alt="Promotional Creatives" class="full-img">
+        </div>
+
 
         <div class="work-card" data-category="mockups">
             <img src="picture/M1.webp" alt="Promotional Creatives" class="full-img">
@@ -447,7 +580,7 @@
             <img src="picture/m17.webp" alt="Promotional Creatives" class="full-img">
         </div>
 
-    <!-- Creatives -->
+    <!-- mockups -->
         <div class="work-card" data-category="graphics">
                 <img src="picture/g0.webp" alt="Promotional Creatives" class="full-img">
         </div>
@@ -553,6 +686,35 @@
                 <img src="picture/g29.webp" alt="Promotional Creatives" class="full-img">
         </div>
 
+         <!-- logos -->
+        <div class="work-card" data-category="logo">
+                    <img src="picture/lg1.webp" alt="logo" class="full-img">
+            </div>
+
+        <div class="work-card" data-category="logo">
+                <img src="picture/lg2.webp" alt="logo" class="full-img">
+        </div>
+        
+        <div class="work-card" data-category="logo">
+                <img src="picture/lg3.webp" alt="logo" class="full-img">
+        </div>
+
+        <div class="work-card" data-category="logo">
+                  <img src="picture/lg4.webp" alt="logo" class="full-img">
+        </div>
+
+         <div class="work-card" data-category="logo">
+                  <img src="picture/lg5.webp" alt="logo" class="full-img">
+        </div>
+         <div class="work-card" data-category="logo">
+                  <img src="picture/lg6.webp" alt="logo" class="full-img">
+        </div>
+         <div class="work-card" data-category="logo">
+                  <img src="picture/lg7.webp" alt="logo" class="full-img">
+        </div>
+         <div class="work-card" data-category="logo">
+                  <img src="picture/lg8.webp" alt="logo" class="full-img">
+        </div>
 
     </div>
   </div>
@@ -627,6 +789,29 @@
         card.classList.add("hide");
         }
     });
+
+  const images = document.querySelectorAll('.full-img');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeBtn = document.querySelector('.close');
+
+  images.forEach(img => {
+    img.addEventListener('click', () => {
+      lightbox.style.display = 'block';
+      lightboxImg.src = img.src;
+    });
+  });
+
+  closeBtn.onclick = () => {
+    lightbox.style.display = 'none';
+  };
+
+  lightbox.onclick = (e) => {
+    if (e.target !== lightboxImg) {
+      lightbox.style.display = 'none';
+    }
+  };
+
 
   // Click event para sa filter buttons
   filterBtns.forEach(btn => {
