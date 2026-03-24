@@ -769,8 +769,8 @@
     const filterBtns = document.querySelectorAll(".filter-btn");
     const workCards = document.querySelectorAll(".work-card");
 
-    // Piliin kung aling tab ang default
-    const defaultFilter = "webdev"; // <-- default na Web Dev
+    // choose default
+    const defaultFilter = "webdev"; // <-- default Web Dev
 
     filterBtns.forEach(btn => {
         const filter = btn.dataset.filter.trim().toLowerCase();
@@ -813,7 +813,7 @@
   };
 
 
-  // Click event para sa filter buttons
+  // Click event for filter buttons
   filterBtns.forEach(btn => {
     btn.addEventListener("click", () => {
       const filter = btn.dataset.filter.trim().toLowerCase();
